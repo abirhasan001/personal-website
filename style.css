@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}#name{
+    font-size: 50px;
+    color: #e60e8f;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 20px solid red ;
+}
+.half-width img{
+    width: 80%;
+}
+#text-position{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+#image-position{
+    margin-top: 100px;
+}
+.top-banner{
+    border: 2px solid rebeccapurple;
+    background-image: url(personal-website-images/header-bg.png);
+    background-size: cover;
+}
+section{
+    height: 700px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#e454aa , #e60e8f );
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 800;
+}
