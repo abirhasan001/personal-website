@@ -5,6 +5,12 @@ body{
     font-size: 50px;
     color: #e60e8f;
 }
+h1{
+    font-size: 30px;
+}
+p{
+    color: gray;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -21,7 +27,6 @@ body{
     margin-top: 100px;
 }
 .top-banner{
-    border: 2px solid rebeccapurple;
     background-image: url(personal-website-images/header-bg.png);
     background-size: cover;
 }
@@ -35,4 +40,25 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 800;
+}
+.biography-banner{
+    background-image: url("personal-website-images/biography-bg.png");
+    background-size: cover;
+}
+#biography-image{
+    margin-left: 200px;
+}
+#position{
+    text-align: center;
+}
+.latest-work{
+    background-image:url("personal-website-images/latest-work-bg.png");
+    background-size: cover;
+}
+.latest-work-position{
+    background-repeat: no-repeat;
+    background-size:500px; 
+}
+#pic2{
+    margin-left: 40px;
 }
